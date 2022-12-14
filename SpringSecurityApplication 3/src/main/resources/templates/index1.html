@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index_style.css}">
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" th:href="@{/img/burrito.gif}" type="image/x-icon">
+    <title>Ш А У Р М Я У</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="general_div">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                    aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/auth/index1">Главная страница</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/product">Каталог товаров</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/auth/about">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/auth/login">Личный кабинет</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="content-shaurma">
+        <img class="media-shaurma" th:src="@{/img/shaurma2.jpg}">
+    </div>
+
+    <div class="reasons">
+        <div>
+            <h2>
+                10 ПРИЧИН ВЫБРАТЬ ИМЕННО НАС:
+            </h2>
+        </div>
+        <div class="reasons-icons">
+            <h2>
+                <p>
+                <ul>
+                    <li class="burrito">Самая вкусная шаурма в
+                        городе</li>
+                    <li class="coffee">Ароматнейший кофе</li>
+                    <li class="wheat">Готовим только из экологически чистых продуктов</li>
+                    <li class="sun">Теплая уютная атмосфера</li>
+                    <li class="music">Приятная музыка</li>
+                    <li class="teddy-bear">Детский уголок</li>
+                    <li class="price">Наши цены вас приятно удивят</li>
+                    <li class="gps">Удобное месторасположение</li>
+                    <li class="hours">Мы работаем для вас 24/7</li>
+                    <li class="truck">Быстрая доставка</li>
+                </ul>
+                </p>
+            </h2>
+        </div>
+    </div>
+
+    <footer>
+    <div class="contacts">
+
+            <div class="contacts1"><a name="Контакты">© 2022 Company, Inc</a>
+            </div>
+            <div class="contacts2">
+                <div class="footer1">г. Владимир, ул. Студеная Гора, 14</div>
+                <div class="footer2">тел. +7(999)999-99-99</div>
+            </div>
+
+    </div>
+    </footer>
+</div>
+<script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+<script th:src="@{/js/script.js}"></script>
+</body>
+</html>
